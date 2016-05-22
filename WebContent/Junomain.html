@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Juno Huntsville</title>
+    <style type="text/css">
+
+      body {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 100%;
+      margin: 0;
+      }
+
+      /* link styles */
+
+      a {
+      text-decoration: none;
+      border-bottom: 1px dotted;
+      padding-bottom: .1em;
+      }
+      a:link {
+      color: #C00;
+      }
+      a:visited {
+      color: #921A66;
+      }
+      a:focus {
+      color: #921A66;
+      }
+      a:hover {
+      color: #921A66;
+      }
+      a:active {
+      color:#F00;
+      }
+
+      #content {
+      position: relative;
+      }
+
+      #logobox {
+      position: relative;
+      width: 60%
+      height: 600px;
+      }
+      
+      #stemlogo {
+      background-color: #FFF;
+      line-height: 1.5em;
+      padding: 1em;
+      margin: 1em 1em 1em 1em;
+      width: 400px;
+      }
+      
+      /* Things to make logo words appear and disappear */
+
+      .j_off, #jazz:hover .j_on{
+      display:none
+      }
+      .j_on, #jazz:hover .j_off{
+      display:block
+      }
+      
+      .u_off, #cuisine:hover .u_on{
+      display:none
+      }
+      .u_on, #cuisine:hover .u_off{
+      display:block
+      }
+      
+      .n_off, #venues:hover .n_on{
+      display:none
+      }
+      .n_on, #venues:hover .n_off{
+      display:block
+      }
+      
+      .o_off, #locale:hover .o_on{
+      display:none
+      }
+      .o_on, #locale:hover .o_off{
+      display:block
+      }
+      
+      /* styles for the news box */
+
+      #news {
+      background: #8c3f36 no-repeat left top;
+      color: #633;
+      font-size: .875em;
+      line-height: 1.5; 
+      padding: 1em;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      margin: 0 1em;
+      position: absolute;
+      top: 1em;
+      right: 0;
+      width: 38%;
+      }
+      
+      #news h1 {
+      font-size: 1.5em;
+      text-transform: uppercase;
+      color: #FFF;
+      letter-spacing: 3px;
+      }
+
+      #news h2 {
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #F26521;
+      letter-spacing: 3px;
+      }
+
+      #news p {
+      color: #FFF;
+
+      /* miscellaneous styles */
+      
+      em { 
+      color: #F26521;
+      }
+      
+      p#copyright {
+      color:#663333; 
+      font-size: .8em;
+      text-align: center;
+      clear: left;
+      }
+      
+    </style> 
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="logobox">
+	<div id="stemlogo">
+	  <img src="images/cup.png" alt="cup"/>
+	  <a id="jazz" href="jazz.html">
+	    <img class="j_on" src="images/j.png" alt="J"/>
+	    <img class="j_off" src="images/jazz.png" alt="JAZZ"/>
+	  </a>
+	  <a id="cuisine" href="cuisine.html">
+	    <img class="u_on" src="images/u.png" alt="U"/>
+	    <img class="u_off" src="images/cuisine.png" alt="CUISINE"/>
+	  </a>
+	  <a id="venues" href="venues.html">
+	    <img class="n_on" src="images/n.png" alt="N"/>
+	    <img class="n_off" src="images/venues.png" alt="VENUES"/>
+	  </a>
+	  <a id="locale" href="locale.html">
+	    <img class="o_on" src="images/o.png" alt="O"/>
+	    <img class="o_off" src="images/locale.png" alt="LOCALE"/>
+	  </a>
+	    <img src="images/cresendo.png" alt="cresendo"/>
+	</div><!-- end #stemlogo -->
+      </div><!-- end #logobox -->
+
+      <div id="news">
+	<h1>NEWS!</h1>
+	<p> Juno, the new star of the Huntsville restaurant scene, is
+	  a convivial wonderland.</p>
+	<p> Live jazz entertainment in Chez Savalle lounge is a
+	  perfect compliment to the European Tapas style dining.
+	<p> A delight for the senses.</p>
+
+      </div><!-- end #news -->
+    </div><!-- end #content -->
+  </body>
+</html>
